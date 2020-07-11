@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="MyLeaveList" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CQMyLeaveListCell" customModule="_2WorkHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-Be-yE5">
+                        <rect key="frame" x="10" y="5" width="300" height="64.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scZ-Lf-l2Y">
+                                <rect key="frame" x="15" y="27" width="6" height="11"/>
+                                <color key="backgroundColor" red="0.2221901698506531" green="0.52760327288216002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="11" id="6yk-Tv-b7S"/>
+                                    <constraint firstAttribute="width" constant="6" id="oKn-9b-iE4"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年假" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8f-b6-vwD">
+                                <rect key="frame" x="32" y="22.5" width="65" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="f74-dp-6lT"/>
+                                    <constraint firstAttribute="height" constant="20" id="lXP-rW-xgm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="剩余一天" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkB-br-hV6">
+                                <rect key="frame" x="135" y="16" width="120" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Z1d-0d-ShV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="按半天请假" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kta-Hy-gZf">
+                                <rect key="frame" x="135" y="37" width="120" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="ULP-oR-8Yd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roomClose" translatesAutoresizingMaskIntoConstraints="NO" id="i7M-Tw-uVs">
+                                <rect key="frame" x="270" y="25" width="8" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="8" id="92p-eQ-Izx"/>
+                                    <constraint firstAttribute="height" constant="15" id="A6U-pz-rgW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="m8f-b6-vwD" firstAttribute="leading" secondItem="scZ-Lf-l2Y" secondAttribute="trailing" constant="11" id="1Gl-sQ-Cxa"/>
+                            <constraint firstAttribute="trailing" secondItem="i7M-Tw-uVs" secondAttribute="trailing" constant="22" id="6L6-3q-g0H"/>
+                            <constraint firstAttribute="trailing" secondItem="KkB-br-hV6" secondAttribute="trailing" constant="45" id="9fp-Wt-oOR"/>
+                            <constraint firstItem="i7M-Tw-uVs" firstAttribute="top" secondItem="Ynd-Be-yE5" secondAttribute="top" constant="25" id="P6C-0u-3pz"/>
+                            <constraint firstItem="KkB-br-hV6" firstAttribute="leading" secondItem="m8f-b6-vwD" secondAttribute="trailing" constant="38" id="Xpm-ra-svW"/>
+                            <constraint firstItem="kta-Hy-gZf" firstAttribute="top" secondItem="KkB-br-hV6" secondAttribute="bottom" constant="6" id="aBp-dH-oYp"/>
+                            <constraint firstItem="scZ-Lf-l2Y" firstAttribute="leading" secondItem="Ynd-Be-yE5" secondAttribute="leading" constant="15" id="ga5-Yg-n8r"/>
+                            <constraint firstAttribute="trailing" secondItem="kta-Hy-gZf" secondAttribute="trailing" constant="45" id="mb8-5f-yH9"/>
+                            <constraint firstItem="scZ-Lf-l2Y" firstAttribute="top" secondItem="Ynd-Be-yE5" secondAttribute="top" constant="27" id="qyn-fi-et1"/>
+                            <constraint firstItem="kta-Hy-gZf" firstAttribute="leading" secondItem="m8f-b6-vwD" secondAttribute="trailing" constant="38" id="wGM-hS-VJE"/>
+                            <constraint firstItem="KkB-br-hV6" firstAttribute="top" secondItem="Ynd-Be-yE5" secondAttribute="top" constant="16" id="wwG-7o-iXZ"/>
+                            <constraint firstItem="m8f-b6-vwD" firstAttribute="top" secondItem="Ynd-Be-yE5" secondAttribute="top" constant="22.5" id="xLl-Oq-XOY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ynd-Be-yE5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="e0i-iT-rnr"/>
+                    <constraint firstAttribute="bottom" secondItem="Ynd-Be-yE5" secondAttribute="bottom" constant="5" id="qDU-pL-3yf"/>
+                    <constraint firstItem="Ynd-Be-yE5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="qeO-On-Mix"/>
+                    <constraint firstAttribute="trailing" secondItem="Ynd-Be-yE5" secondAttribute="trailing" constant="10" id="u0F-CS-vE0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="Ynd-Be-yE5" id="gi0-Z3-soN"/>
+                <outlet property="leaveTypeLab" destination="m8f-b6-vwD" id="C9I-hI-Odg"/>
+                <outlet property="restLab" destination="KkB-br-hV6" id="t5H-mp-wZn"/>
+                <outlet property="ruleLab" destination="kta-Hy-gZf" id="d5I-2M-Z8v"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="roomClose" width="8" height="14"/>
+    </resources>
+</document>

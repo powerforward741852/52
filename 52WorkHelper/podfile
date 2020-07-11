@@ -1,0 +1,49 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target '52WorkHelper' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'SVProgressHUD'
+    pod 'MJRefresh'
+    pod 'SDCycleScrollView'
+    pod 'IQKeyboardManagerSwift', '~> 6.1.1'
+    pod 'DZNEmptyDataSet'
+   
+    pod 'TZImagePickerController'
+    pod 'Popover'
+    pod 'SSKeychain', '~> 1.4.1’
+    pod  'CVCalendar', '~> 1.6.1'
+#    pod 'RongCloudIM/IMLib', '~> 2.8.3'
+#    pod 'RongCloudIM/IMKit', '~> 2.8.3'
+    pod 'TangramKit'
+    pod 'Masonry'
+    pod 'mob_sharesdk'
+    pod 'mob_sharesdk/ShareSDKUI'
+    pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+    pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+    pod 'mob_sharesdk/ShareSDKExtension'
+    pod ‘AMap3DMap’
+    pod ‘AMapSearch’
+    pod ‘AMapLocation’
+    pod 'JPush'
+    pod 'JXPagingView/Paging'
+    pod 'JXCategoryView'
+    pod 'WZLBadge'
+    pod 'MJExtension'
+    pod 'AFNetworking'
+    pod 'UUButton'
+    pod “BaiduMapKit”
+    pod 'MLLabel'
+    pod 'DateToolsSwift'
+    pod 'Bugly'
+    pod 'YNDropDownMenu' , '~> 3.1.0'
+    pod 'FreeStreamer', '~> 3.9.3'
+    pod 'FSCalendar'
+    pod 'YYText'
+	pod 'BRPickerView'
+  # Pods for 52WorkHelper
+
+end

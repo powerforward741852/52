@@ -1,0 +1,201 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.7.3)
+  - AMap3DMap (6.4.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.4)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (6.1.1):
+    - AMapFoundation (~> 1.4)
+  - BaiduMapKit (4.2.1)
+  - BRPickerView (2.2.1)
+  - Bugly (2.5.0)
+  - CVCalendar (1.6.1)
+  - DateToolsSwift (4.0.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FreeStreamer (3.9.3):
+    - Reachability (~> 3.0)
+  - FSCalendar (2.8.0)
+  - IQKeyboardManagerSwift (6.1.1)
+  - JCore (1.2.2)
+  - JPush (3.1.0):
+    - JCore (~> 1.2.0)
+  - JXCategoryView (1.1.2)
+  - JXPagingView/Paging (1.0.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - MLLabel (1.10.5)
+  - mob_sharesdk (4.2.0):
+    - mob_sharesdk/ShareSDK (= 4.2.0)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.0):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.2.0):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.1.9)
+  - Popover (1.2.0)
+  - Reachability (3.2)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SSKeychain (1.4.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - TangramKit (1.3.1)
+  - TZImagePickerController (3.0.8)
+  - UUButton (1.1)
+  - WZLBadge (1.2.6)
+  - YNDropDownMenu (3.1.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
+  - AMap3DMap
+  - AMapLocation
+  - AMapSearch
+  - BaiduMapKit
+  - BRPickerView
+  - Bugly
+  - CVCalendar (~> 1.6.1)
+  - DateToolsSwift
+  - DZNEmptyDataSet
+  - FreeStreamer (~> 3.9.3)
+  - FSCalendar
+  - IQKeyboardManagerSwift (~> 6.1.1)
+  - JPush
+  - JXCategoryView
+  - JXPagingView/Paging
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - MLLabel
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
+  - Popover
+  - SDCycleScrollView
+  - SSKeychain (~> 1.4.1)
+  - SVProgressHUD
+  - SwiftyJSON
+  - TangramKit
+  - TZImagePickerController
+  - UUButton
+  - WZLBadge
+  - YNDropDownMenu (~> 3.1.0)
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Alamofire
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - BaiduMapKit
+    - BRPickerView
+    - Bugly
+    - CVCalendar
+    - DateToolsSwift
+    - DZNEmptyDataSet
+    - FreeStreamer
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - JCore
+    - JPush
+    - JXCategoryView
+    - JXPagingView
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MLLabel
+    - mob_sharesdk
+    - MOBFoundation
+    - Popover
+    - Reachability
+    - SDCycleScrollView
+    - SDWebImage
+    - SSKeychain
+    - SVProgressHUD
+    - SwiftyJSON
+    - TangramKit
+    - TZImagePickerController
+    - UUButton
+    - WZLBadge
+    - YNDropDownMenu
+    - YYText
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AMap3DMap: ebfb4e202c2bee9c3a6c296264e29f12436b6379
+  AMapFoundation: bff8688722e886feda4edd77f1443746ddd7e2e2
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
+  AMapSearch: 3dcbf85c403a2a0fe0eda5318caabc272b31f5e1
+  BaiduMapKit: b7430823de488bb6d082e4e1d356dadf09d3edb2
+  BRPickerView: 0590a8c5de9bd98c6b4e4f117a3dff6de287d5b2
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CVCalendar: 505c11b11a088b43f159806e791eba1c2540853b
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FreeStreamer: 8d52b299dc97e557ff156480bf86a666165bd1e5
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  JCore: f14c0549968a63c22e246a4875aa9d428446f373
+  JPush: 5921e25ad13e0386351079217b009f2039084eac
+  JXCategoryView: 7281368e4f4e10f1d006ff07114cafd63a495602
+  JXPagingView: 17abe24ee091f8be31dc361ac65c75e387c41f91
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
+  mob_sharesdk: fc8a9aab921c08e5e88a5b1f36229c6d406a2ff8
+  MOBFoundation: 11500153c10d83e4ac341f6ad6301b3998ce6db2
+  Popover: 28c1ac8e937ab2b3965bd2da7dd18324357abc41
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TangramKit: 1b4ee065845919057bdbe930ba39deecbbff181e
+  TZImagePickerController: 9092aa0f97af1cb9643c0ea7d7e5a77802ec7245
+  UUButton: 9a19bbe0c812a6920de21da8acca7a2d0bad52da
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  YNDropDownMenu: 9c88e36c5f913bc614aaf0f3d0a7968f6251268b
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 2582208fff8f6c7bb7c295151421db71e367f547
+
+COCOAPODS: 1.9.1

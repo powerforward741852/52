@@ -1,0 +1,6 @@
+framework module UUButton {
+  umbrella header "UUButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

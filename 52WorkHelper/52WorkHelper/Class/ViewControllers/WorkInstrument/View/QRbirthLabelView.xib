@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Jqv-bm-hYK" customClass="QRbirthLabelView" customModule="_2WorkHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日寿星:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRn-cb-WSZ">
+                    <rect key="frame" x="15" y="10.5" width="80" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="ajM-Wr-RBU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.51366716619999997" green="0.51375907659999998" blue="0.51366132499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ee-Lu-xxH">
+                    <rect key="frame" x="100" y="22" width="314" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5ee-Lu-xxH" firstAttribute="centerY" secondItem="jRn-cb-WSZ" secondAttribute="centerY" id="5sb-Sj-aUi"/>
+                <constraint firstItem="jRn-cb-WSZ" firstAttribute="leading" secondItem="xVR-mg-IUw" secondAttribute="leading" constant="15" id="VvV-A6-cJM"/>
+                <constraint firstItem="5ee-Lu-xxH" firstAttribute="leading" secondItem="jRn-cb-WSZ" secondAttribute="trailing" constant="5" id="Xjk-Rc-3W0"/>
+                <constraint firstItem="jRn-cb-WSZ" firstAttribute="height" secondItem="Jqv-bm-hYK" secondAttribute="height" multiplier="1/2" constant="1" id="f5C-rm-gj0"/>
+                <constraint firstAttribute="trailing" secondItem="5ee-Lu-xxH" secondAttribute="trailing" constant="15" id="o61-W1-nSH"/>
+                <constraint firstItem="jRn-cb-WSZ" firstAttribute="centerY" secondItem="Jqv-bm-hYK" secondAttribute="centerY" id="w6f-SV-513"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="xVR-mg-IUw"/>
+            <connections>
+                <outlet property="nameLabel" destination="5ee-Lu-xxH" id="I0S-wO-MWc"/>
+                <outlet property="todayLabel" destination="jRn-cb-WSZ" id="2hb-sd-9zh"/>
+            </connections>
+            <point key="canvasLocation" x="151.44927536231884" y="82.03125"/>
+        </view>
+    </objects>
+</document>

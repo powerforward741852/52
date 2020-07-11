@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6vh-eG-cro" userLabel="rightV" customClass="QRDropRightView" customModule="_2WorkHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="w3s-Sf-MgI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="191"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="w3s-Sf-MgI" firstAttribute="leading" secondItem="4bt-5y-DPX" secondAttribute="leading" id="FPy-ab-FYf"/>
+                <constraint firstItem="w3s-Sf-MgI" firstAttribute="trailing" secondItem="4bt-5y-DPX" secondAttribute="trailing" id="fNo-1b-moS"/>
+                <constraint firstItem="w3s-Sf-MgI" firstAttribute="top" secondItem="4bt-5y-DPX" secondAttribute="top" id="o0H-q1-qgb"/>
+                <constraint firstItem="4bt-5y-DPX" firstAttribute="bottom" secondItem="w3s-Sf-MgI" secondAttribute="bottom" id="oPi-us-qbA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="4bt-5y-DPX"/>
+            <connections>
+                <outlet property="table" destination="w3s-Sf-MgI" id="ZQA-uv-qgP"/>
+            </connections>
+            <point key="canvasLocation" x="893.60000000000002" y="-140.77961019490255"/>
+        </view>
+        <view contentMode="scaleToFill" id="ldH-5t-Ia0" customClass="QRDropLeftTView" customModule="_2WorkHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Asw-eF-B4i">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Asw-eF-B4i" firstAttribute="leading" secondItem="fM2-Yl-QXc" secondAttribute="leading" id="KyO-Rp-H1n"/>
+                <constraint firstItem="Asw-eF-B4i" firstAttribute="trailing" secondItem="fM2-Yl-QXc" secondAttribute="trailing" id="XeM-Gr-Vb2"/>
+                <constraint firstItem="Asw-eF-B4i" firstAttribute="top" secondItem="ldH-5t-Ia0" secondAttribute="top" id="XrY-6h-Hgg"/>
+                <constraint firstItem="Asw-eF-B4i" firstAttribute="bottom" secondItem="fM2-Yl-QXc" secondAttribute="bottom" id="d2Y-ug-0HB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fM2-Yl-QXc"/>
+            <connections>
+                <outlet property="table" destination="Asw-eF-B4i" id="Mdf-c4-d4y"/>
+            </connections>
+            <point key="canvasLocation" x="844" y="-1578.7106446776613"/>
+        </view>
+    </objects>
+</document>
